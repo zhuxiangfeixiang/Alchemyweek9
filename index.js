@@ -96,10 +96,9 @@ async function getPrice() {
     let div = document.createElement("div");
     div.className = "sources_row";
     let html = `<span class="source_name">${filSource[i].name}</span>
-        <span class="source_proportion">${filSource[i].proportion*100}%</span>`;
-        document.getElementById("sources").innerHTML = "";
+    <span class="source_proportion">${filSource[i].proportion*100}%</span>`;
+        document.getElementById("sources").innerHTML = 
     div.innerHTML = html;
-    parent.appendChild(div);
   }
   console.log("Price: ", swapPriceJSON);
   document.getElementById("to_amount").value =
