@@ -16,11 +16,13 @@
 }
 .swapbox{
     overflow: auto;
+    display: flex;
+    justify-content: space-between;
     margin: 20px 0;
     padding: 20px;
-    background-color: #2f2f2f;
+    background-color: #332b2b;
     border-radius: 20px;
-    border: 1px solid #565656;
+    border: 1px solid #9b9898;
 }
 .token_select{
     padding:5px 0;
@@ -39,5 +41,8 @@
 }
 .gas_estimate_label{
     padding:5px;
+    text-align: left
 }
-
+.best_sources{
+    text-align: left
+}
